@@ -18,7 +18,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: themeColor,
       ),
-      home: LoginScreen(),
+      home: LoginScreen(
+        title: "Chat Me", //Pass Data
+      ),
     );
   }
 }
